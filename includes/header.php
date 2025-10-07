@@ -8,7 +8,7 @@
         <ul class="nav-links" id="nav-links">
             <li><a href="index.php">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Promote Your Event</a></li>
+            <li><a href="event_form.php">Promote Your Event</a></li>
             <li><a href="#">Why Congo Week</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Donate</a></li>
