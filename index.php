@@ -84,8 +84,6 @@
              <div class='timer-box'><span class='numbers'>" + seconds + "</span> Seconds</div>";
     }, 1000);
 
-
-   <script>
 window.addEventListener("scroll", () => {
   const header = document.querySelector(".site-header");
   if (window.scrollY > 80) {
@@ -100,7 +98,6 @@ window.addEventListener("scroll", () => {
     header.querySelectorAll(".nav-links a, .site-title").forEach(el => el.style.color = "#fff");
   }
 });
-</script>
 
   </script>
 </body>
