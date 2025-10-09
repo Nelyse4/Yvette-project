@@ -34,8 +34,9 @@ body {
 
 .promoteEventPicture-title {
   position: absolute;
-  bottom: 80px;
-  left: 130px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: #FEDD3C;
   text-shadow: 1px 1px 3.8px #808080;
   font-family: Inter, sans-serif;
@@ -44,6 +45,8 @@ body {
   margin: 0;
   text-align: center;
   z-index: 2;
+  max-width: 90%;
+  line-height: 1.1;
 }
 
 .form-econtainer {
@@ -115,7 +118,7 @@ textarea {
 /* Large screens (laptops) */
 @media (max-width: 1200px) {
   .promoteEventPicture-title {
-    font-size: 4rem;
+    font-size: 3.2rem;
     left: 80px;
   }
   .form-econtainer {
@@ -131,10 +134,8 @@ textarea {
   }
 
   .promoteEventPicture-title {
-    font-size: 3.2rem;
-    left: 50px;
-    bottom: 70px;
-    text-align: left;
+    font-size: 2.2rem;
+    top: 45%;
   }
 
   .form-econtainer {
@@ -161,7 +162,6 @@ textarea {
   }
 
   .promoteEventPicture-title {
-    position: static;
     font-size: 2.2rem;
     text-align: center;
     margin-top: 60px;
@@ -197,7 +197,7 @@ textarea {
 @media (max-width: 480px) {
   .promoteEventPicture-title {
     font-size: 1.6rem;
-    margin-top: 40px;
+    top: 42%;
   }
 
   .form-econtainer {
